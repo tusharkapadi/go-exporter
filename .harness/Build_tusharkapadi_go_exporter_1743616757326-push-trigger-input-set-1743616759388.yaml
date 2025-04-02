@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_tusharkapadi_go_exporter_1743616757326-push-trigger-input-set
+  identifier: Build_tusharkapadi_go_exporter_1743616757326pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_tusharkapadi_go_exporter_1743616757326
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
